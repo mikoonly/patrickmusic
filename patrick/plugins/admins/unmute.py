@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS
 from strings import get_command
 from patrick import app
-from patrick.core.call import Auput
+from patrick.core.call import patrick
 from patrick.utils.database import is_muted, mute_off
 from patrick.utils.decorators import AdminRightsCheck
 
