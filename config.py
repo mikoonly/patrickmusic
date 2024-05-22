@@ -8,16 +8,16 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "21776181"))
+API_HASH = getenv("API_HASH", "5d8ba44fd7c4c022cc0221ff6bd91494")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Iamuput")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "iMikoid")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "NezukoMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Patricktapibot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -33,14 +33,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002028943982"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ISI GOBLOK GAUSA BEGO² AMAT")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Patrick-Bot")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1843616228").split())
+    map(int, getenv("OWNER_ID", "97429043").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -52,7 +52,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/iamuput/NezukoMusic",
+    "https://github.com/Mikoonly/PatrickMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,9 +61,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Flukosaa")
+    "SUPPORT_CHANNEL", "https://t.me/iTelegramStore")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/UputtSupport")
+    "SUPPORT_GROUP", "https://t.me/AlterBaseChat")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -154,8 +154,8 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
-PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
+START_IMG_URL = "https://telegra.ph/file/72e2dedfffa6d88405e9a.jpg"
+PING_IMG_URL = "https://telegra.ph/file/25b64475461be888396a8.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
