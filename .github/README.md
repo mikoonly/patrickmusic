@@ -3,7 +3,7 @@
 <p align="center"><img src="https://graph.org/file/3911e08c98abc17451d8f.jpg" width="300"></a></p>
 <p align="center">
 
-*Test Bot ➣ [PatrickMusic](https://t.me/PatrickTapiBot*
+*Test Bot ➣ [PatrickMusic](https://t.me/PatrickTapiBot)*
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 
