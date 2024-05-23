@@ -156,7 +156,7 @@ autoclean = []
 # Images
 START_IMG_URL = "https://telegra.ph/file/72e2dedfffa6d88405e9a.jpg"
 PING_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
-PLAYLIST_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/46f20e9e27e9d3b8fc6f6.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph/file/46f20e9e27e9d3b8fc6f6.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
