@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import PLAYLIST_IMG_URL, MUST_JOIN, PRIVATE_BOT_MODE, SUPPORT_GRUP, adminlist
+from config import PLAYLIST_IMG_URL, MUST_JOIN, PRIVATE_BOT_MODE, SUPPORT_GROUP, adminlist
 from strings import get_string
 from patrick import YouTube, app
 from patrick.misc import SUDOERS
