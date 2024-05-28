@@ -43,6 +43,9 @@ OWNER_ID = list(
     map(int, getenv("OWNER_ID", "97429043").split())
 )  # Input type must be interger
 
+# MUST JOIN
+MUST_JOIN = getenv("MUST_JOIN", "https://t.me/alterc0de")
+
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
