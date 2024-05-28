@@ -136,7 +136,7 @@ def PlayWrapper(command):
                 [
                     [
                         InlineKeyboardButton(
-                            text="how to fix?,
+                            text="how to fix?",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
