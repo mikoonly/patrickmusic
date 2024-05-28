@@ -75,6 +75,28 @@ def PlayWrapper(command):
                     ]
                 ]
             )
+          return await message.reply_text(
+                _["general_3"], reply_markup=upl
+            )
+        if MUST_JOIN:
+            try:
+                await app.get_chat_member(MUST_JOIN, message.from_user.id)
+            except UserNotParticipant:
+                sub = await app.export_chat_invite_link(MUST_JOIN)
+                kontol = InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton("join dulu🗿", url=sub)]
+                    ]
+                )
+                return await message.reply_text(_["force_sub"].format(message.from_user.mention), reply_markup=kontol)
+                
+
+        if await is_maintenance() is False:
+            if message.from_user.id not in SUDOERS:
+                return await message.reply_text(
+                    text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_GROUP}>Support Group</a> for knowing the reason.",
+                    disable_web_page_preview=True,
+                )
             return await message.reply_text(
                 _["general_4"], reply_markup=upl
             )
@@ -126,41 +148,3 @@ def PlayWrapper(command):
         )
 
     return wrapper
-  
-def PlayWrapper(command):
-    async def wrapper(client, message):
-        language = await get_lang(message.chat.id)
-        _ = get_string(language)
-        if message.sender_chat:
-            upl = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="how to fix?",
-                            callback_data="AnonymousAdmin",
-                        ),
-                    ]
-                ]
-            )
-            return await message.reply_text(
-                _["general_3"], reply_markup=upl
-            )
-        if MUST_JOIN:
-            try:
-                await app.get_chat_member(MUST_JOIN, message.from_user.id)
-            except UserNotParticipant:
-                sub = await app.export_chat_invite_link(MUST_JOIN)
-                kontol = InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton("join dulu🗿", url=sub)]
-                    ]
-                )
-                return await message.reply_text(_["force_sub"].format(message.from_user.mention), reply_markup=kontol)
-                
-
-        if await is_maintenance() is False:
-            if message.from_user.id not in SUDOERS:
-                return await message.reply_text(
-                    text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_GROUP}>Support Group</a> for knowing the reason.",
-                    disable_web_page_preview=True,
-                )
