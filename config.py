@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "iMikoid")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Patricktapibot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "VioletaRobot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -36,7 +36,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002028943982"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Patrick-Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " Violet")
 
 # Your User ID.
 OWNER_ID = list(
@@ -146,7 +146,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Auputlogs.txt"
+LOG_FILE_NAME = "Patricklogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
@@ -157,16 +157,16 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph/file/72e2dedfffa6d88405e9a.jpg"
-PING_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
-PLAYLIST_IMG_URL = "https://telegra.ph/file/46f20e9e27e9d3b8fc6f6.jpg"
-GLOBAL_IMG_URL = "https://telegra.ph/file/46f20e9e27e9d3b8fc6f6.jpg"
+START_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg.jpg"
+PING_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/69a19ba291ec0e83e1567.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/46f20e9e27e9d3b8fc6f6.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/d2ce76de9556e0632c14c.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/727d28fa522730340270d.jpg"
