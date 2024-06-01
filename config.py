@@ -36,7 +36,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002028943982"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " Violet")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Violet")
 
 # Your User ID.
 OWNER_ID = list(
@@ -64,7 +64,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iTelegramStore")
+    "SUPPORT_CHANNEL", "https://t.me/alterc0de")
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/AlterBaseChat")
 
