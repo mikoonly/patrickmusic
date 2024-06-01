@@ -161,7 +161,9 @@ async def active_afk(_, message: Message):
 
     await add_afk(user_id, details)    
     await message.reply_text(f"{message.from_user.first_name} Yeah leave! Group feels so clean now.")
-    
+
+        }
+
     else:
         details = {
             "type": "text",
@@ -171,7 +173,9 @@ async def active_afk(_, message: Message):
         }
         
     await add_afk(user_id, details)
-    await message.reply_text(f"{message.from_user.first_name} Wakatta! Sayonara👋")
+  await message.reply_text(f"{message.from_user.first_name} Wakatta! Sayonara👋")
+
+        }
 
     else:
         details = {
@@ -183,7 +187,9 @@ async def active_afk(_, message: Message):
     
     await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} I know you are reading..... May be Doujins.")
-    
+
+        }
+
     else:
         details = {
             "type": "text",
@@ -195,6 +201,8 @@ async def active_afk(_, message: Message):
     await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Wtf, going already? Not like I care about it.")
 
+        }
+
     else:
         details = {
             "type": "text",
@@ -205,6 +213,8 @@ async def active_afk(_, message: Message):
     
     await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Hmmmmmmmm. Wanking off?")
+
+        }
 
     else:
         details = {
