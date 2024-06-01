@@ -25,7 +25,7 @@ async def active_afk(_, message: Message):
             seenago = get_readable_time((int(time.time() - timeafk)))
             if afktype == "text":
                 send = await message.reply_text(
-                    f"{message.from_user.first_name} lah kok balik? {seenago}",
+                    f"{message.from_user.first_name} tar balik {seenago}",
                     disable_web_page_preview=True,
                 )
             if afktype == "text_reason":
@@ -37,23 +37,23 @@ async def active_afk(_, message: Message):
                 if str(reasonafk) == "None":
                     send = await message.reply_animation(
                         data,
-                        caption=f"{message.from_user.first_name} Is back Online and was away for {seenago}",
+                        caption=f"{message.from_user.first_name} is cum back Online and was away for {seenago}",
                     )
                 else:
                     send = await message.reply_animation(
                         data,
-                        caption=f"{message.from_user.first_name} Is back Online and was away for {seenago}\n\nReason: {reasonafk}",
+                        caption=f"{message.from_user.first_name} is cum back Online and was away for {seenago}\n\nReason: {reasonafk}",
                     )
             if afktype == "photo":
                 if str(reasonafk) == "None":
                     send = await message.reply_photo(
                         photo=f"downloads/{user_id}.jpg",
-                        caption=f"{message.from_user.first_name} Is back Online and was away for {seenago}",
+                        caption=f"{message.from_user.first_name} is cum back Online and was away for {seenago}",
                     )
                 else:
                     send = await message.reply_photo(
                         photo=f"downloads/{user_id}.jpg",
-                        caption=f"{message.from_user.first_name} Is back Online and was away for {seenago}\n\nReason: {reasonafk}",
+                        caption=f"{message.from_user.first_name} is cum back Online and was away for {seenago}\n\nReason: {reasonafk}",
                     )
         except Exception:
             send = await message.reply_text(
@@ -160,7 +160,12 @@ async def active_afk(_, message: Message):
         }
 
     await add_afk(user_id, details)    
-    await message.reply_text(f"{message.from_user.first_name} Telah Missing!")
+    await message.reply_text(f"{message.from_user.first_name} Yeah leave! Group feels so clean now.")
+    await message.reply_text(f"{message.from_user.first_name} Wakatta! Sayonara👋")
+    await message.reply_text(f"{message.from_user.first_name} I know you are reading..... May be Doujins.")
+    await message.reply_text(f"{message.from_user.first_name} Wtf, going already? Not like I care about it.")
+    await message.reply_text(f"{message.from_user.first_name} Hmmmmmmmm. Wanking off?")
+    await message.reply_text(f"{message.from_user.first_name} Damn! You're leaving, like I will even miss you.")
 
 
 
@@ -207,23 +212,23 @@ async def chat_watcher_func(_, message):
                 if str(reasonafk) == "None":
                     send = await message.reply_animation(
                         data,
-                        caption=f"{user_name[:25]} Is back Online and was away for {seenago}\n\n",
+                        caption=f"{user_name[:25]} arrive and was away for {seenago}\n\n",
                     )
                 else:
                     send = await message.reply_animation(
                         data,
-                        caption=f"{user_name[:25]} Is back Online and was away for {seenago}\n\nReason: {reasonafk}\n\n",
+                        caption=f"{user_name[:25]} is cum back Online and was away for {seenago}\n\nReason: {reasonafk}\n\n",
                     )
             if afktype == "photo":
                 if str(reasonafk) == "None":
                     send = await message.reply_photo(
                         photo=f"downloads/{userid}.jpg",
-                        caption=f"{user_name[:25]} Is back Online and was away for {seenago}\n\n",
+                        caption=f"{user_name[:25]} is cum back Online and was away for {seenago}\n\n",
                     )
                 else:
                     send = await message.reply_photo(
                         photo=f"downloads/{userid}.jpg",
-                        caption=f"{user_name[:25]} Is back Online and was away for {seenago}\n\nReason: {reasonafk}\n\n",
+                        caption=f"{user_name[:25]} is cum back Online and was away for {seenago}\n\nReason: {reasonafk}\n\n",
                     )
         except:
             msg += f"{user_name[:25]} im back!\n\n"
@@ -246,7 +251,7 @@ async def chat_watcher_func(_, message):
                             f"{replied_first_name[:25]} Missing {seenago}\n\n"
                         )
                     if afktype == "text_reason":
-                        msg += f"{replied_first_name[:25]} Telah Meninggal Dunia {seenago}\n\nReason: {reasonafk}\n\n"
+                        msg += f"{replied_first_name[:25]} eum maybe wanking off? i dunno {seenago}\n\nReason: {reasonafk}\n\n"
                     if afktype == "animation":
                         if str(reasonafk) == "None":
                             send = await message.reply_animation(
@@ -256,7 +261,7 @@ async def chat_watcher_func(_, message):
                         else:
                             send = await message.reply_animation(
                                 data,
-                                caption=f"{replied_first_name[:25]} Telah Meninggal Dunia {seenago}\n\nReason: {reasonafk}\n\n",
+                                caption=f"{replied_first_name[:25]} maybe wanking off? i dunno {seenago}\n\nReason: {reasonafk}\n\n",
                             )
                     if afktype == "photo":
                         if str(reasonafk) == "None":
@@ -267,7 +272,7 @@ async def chat_watcher_func(_, message):
                         else:
                             send = await message.reply_photo(
                                 photo=f"downloads/{replied_user_id}.jpg",
-                                caption=f"{replied_first_name[:25]} Telah meninggal dunia {seenago}\n\nReason: {reasonafk}\n\n",
+                                caption=f"{replied_first_name[:25]} maybe wanking off? idk {seenago}\n\nReason: {reasonafk}\n\n",
                             )
                 except Exception:
                     msg += f"{replied_first_name} Missing,\nlagi pengen sendiri\n\n"
