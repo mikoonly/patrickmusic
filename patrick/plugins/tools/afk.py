@@ -161,10 +161,15 @@ async def active_afk(_, message: Message):
 
     await add_afk(user_id, details)    
     await message.reply_text(f"{message.from_user.first_name} Yeah leave! Group feels so clean now.")
+    await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Wakatta! Sayonara👋")
+    await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} I know you are reading..... May be Doujins.")
+    await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Wtf, going already? Not like I care about it.")
+    await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Hmmmmmmmm. Wanking off?")
+    await add_afk(user_id, details)
     await message.reply_text(f"{message.from_user.first_name} Damn! You're leaving, like I will even miss you.")
 
 
