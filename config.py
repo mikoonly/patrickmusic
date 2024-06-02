@@ -107,14 +107,14 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "4"))
 
 # Maximum Limit Allowed for users to save playlists on bot's server
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "15"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "20"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "15"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "5")
+    getenv("CLEANMODE_MINS", "1")
 )  # Remember to give value in Seconds
 
 
