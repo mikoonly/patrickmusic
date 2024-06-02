@@ -9,13 +9,13 @@ from config import MUSIC_BOT_NAME, OWNER_USERNAME, SUPPORT_CHANNEL
 @app.on_message(filters.command("alive", ["/", ".", "!"]))
 async def kontolmasukmemek(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://telegra.ph/file/3381717ff2674c9f96511.mp4",
+        video=f"https://telegra.ph/file/0711c7c7ecd3aba595219.mp4",
         caption=f"💖 Hei {message.from_user.mention}\n\n I am {MUSIC_BOT_NAME}\n\n✨ I am Fast and Powerful music player bot with some awesome features.\n\n━━━━━━━━━━━━━━━━━━❄",
         reply_markup=InlineKeyboardMarkup(
             [
                [
             InlineKeyboardButton(
-                text="ᅠᅠ 𝑴𝒊𝜿𝒐", url=f"https://t.me/{OWNER_USERNAME}"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"
             ),
             InlineKeyboardButton(
                 text="ᴄʜᴀɴɴᴇʟ", url=f"{SUPPORT_CHANNEL}"
