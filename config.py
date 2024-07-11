@@ -15,9 +15,9 @@ API_HASH = getenv("API_HASH", "5d8ba44fd7c4c022cc0221ff6bd91494")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "iMikoid")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "hikicu")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "VioletaRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "binatang_bot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -33,14 +33,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078466841"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002181371907"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Violet")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "usrcu")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "97429043").split())
+    map(int, getenv("OWNER_ID", "5425298822").split())
 )  # Input type must be interger
 
 # MUST JOIN
@@ -64,9 +64,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/alterc0de")
+    "SUPPORT_CHANNEL", "https://t.me/terminal_grup")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/AlterBaseChat")
+    "SUPPORT_GROUP", "https://t.me/Crypto_TON_Games")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
