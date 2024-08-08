@@ -28,7 +28,7 @@ class patrickbot(Client):
         self.mention = self.me.mention
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "Bot Started"
+                config.OWNER_ID, "Bot Started"
             )
         except:
             LOGGER(__name__).error(
